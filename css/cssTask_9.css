@@ -1,0 +1,76 @@
+/* Start Variables*/
+
+/* End Variables*/
+/* Start Global Rules */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Work Sans", sans-serif;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Small */
+@media (min-width: 750px ){
+    .container {
+        width: 750px;
+    }
+}
+/* Medium */
+@media (min-width: 992px ){
+    .container {
+        width: 970px;
+    }
+}
+/* Large */
+@media (min-width: 1200px ){
+    .container {
+        width: 1170px;
+    }
+}
+/* End Global Rules */
+.page-title{
+    text-align: center;
+    bottom: 20px;
+    margin-top: 20px;
+}
+.ser {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));   
+
+}
+.feat {
+    bottom: 20px;
+    width: 300px;
+    height: 400px;
+}
+.feat img {
+    width: 300px;
+    height: 200px;
+    border-top-left-radius:15px ;
+    border-top-right-radius:15px ;
+}
+.feat p {
+    background-color: #f80a0ac5;
+    width: 120px;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+.dis:not(span) {
+    color: #999;
+}
+.dis span {
+    position: relative;
+    top: 10px;
+    color: black;
+}
